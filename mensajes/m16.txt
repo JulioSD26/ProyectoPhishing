@@ -1,0 +1,8 @@
+Dear Student, Your access to your library account is expiring soon due to 
+inactivity. To continue to have access to the library services, you must 
+reactivate your account. For this purpose, click the web address below or 
+copy and paste it into your web browser. A successful login will activate your
+account and you will be redirected to your library profile. 
+https://auth.berkeley.edu/cas/login?service=https%3a%2f%(link is external) If
+you are not able to login, please contact at xxxxx@berkeley.edu
+(link sends e-mail) for immediate assistance.

@@ -1,0 +1,8 @@
+UC Berkeley | IT Client Services Hello, This is an automated official communication
+from Berkeley IT Client Services Ticket system in reference to the incident number
+below. Ticket INC1147653 has been created from the recent activities in your CalNet
+- ID credentials. ITCS system have detected an irregular activity related to your 
+UC Berkeley CalNet ID credentials. As a precautionary measure, we will temporary 
+block your account and should be moving it to our backup server but we need your help
+to do this effectively otherwise you may lose your login information and data at the
+end of the Duo Account Migration & Quarantine clean-up process.

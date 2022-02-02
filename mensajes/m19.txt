@@ -1,0 +1,6 @@
+We have detected irregular activity on your account on the date 10/20/2016. For
+your protection, we have temporary limited your account. In order to regain full
+access to your account, you must verify this activity before you can continue 
+using your account. We have sent you an attachment , open it and follow the steps
+to verify your account. Once completed, please allow up to 48h to update.
+Copyright © 2016 BankOfAmerica, All rights reserve IrregularActivityFile.html
