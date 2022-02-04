@@ -12,13 +12,22 @@ public class EncontrarPalabrasDiferentes {
                 System.out.println("No es un directorio");
                 System.exit(1);
             }else{
-                //
-                PalabrasDiferentes(carpeta);
+                // si el usuario ingreso el comando -v muestra las palabras
+                if(args.length == 2 && args[args.length-1].equals("-v")){
+                    // mostrar las palabras
+                    boolean mostrarPalabras = true;
+                    PalabrasDiferentes(carpeta, mostrarPalabras);
+
+                }else{
+                    boolean mostrarPalabras = false;
+                    PalabrasDiferentes(carpeta, mostrarPalabras);
+                }
+
             }
         }
     }
 
-    public static void PalabrasDiferentes(File carpeta){
+    public static void PalabrasDiferentes(File carpeta, boolean mostrarPalabras){
         for (File FicheroEntrada : carpeta.listFiles()){
             // mostrar el nombre del archivo
             System.out.println(FicheroEntrada.getName());
@@ -98,10 +107,13 @@ public class EncontrarPalabrasDiferentes {
                 // Mostrar total de palabras diferentes
                 System.out.printf("%5d palabras diferentes\n", list.size() );
 
+
                 // mostrar cada palabra
-//                for (String word : list) {
-//                    System.out.println(word);
-//                }
+                if(mostrarPalabras){
+                    for (String word : list) {
+                    System.out.println(word);
+                    }
+                }
 
             } catch (IOException ex) {
                 System.out.println( ex.getMessage() );
